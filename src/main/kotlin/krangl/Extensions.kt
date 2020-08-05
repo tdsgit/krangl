@@ -108,7 +108,7 @@ class ExpressionContext(df: DataFrame) : TableContext(df) {
 infix fun String.to(that: TableExpression) = ColumnFormula(this, that)
 
 // or using backticked =
-infix fun String.`=`(that: TableExpression) = ColumnFormula(this, that)
+//infix fun String.`=`(that: TableExpression) = ColumnFormula(this, that)
 // should we ditch one?
 //* to familiar to kotlin users
 //* `=` familar to r and python users
